@@ -8,19 +8,31 @@
 		<link rel="stylesheet" href="./css/index.css" />
 	</head>
 	<body>
-		<header>
-			<div>
-				<div><p>Grandes ofertas de comederos</p></div>
-				<div>
+		<header class="header-cabezera">
+			<div class="comederos">
+				<div class="grandes-comederos"><p>Grandes ofertas de comederos</p></div>
+				<div class="menu-oferta">
 					<ul>
-						<li><a href="#">Español</a></li>
-						<li><a href="#">ARG$</a></li>
+						<li>
+							<a href="#"
+								>Español <span><img src="/img/down.png" alt="" /></span
+							></a>
+						</li>
+						<li>
+							<a href="#"
+								>ARG$ <span><img src="/img/down.png" alt="" /></span
+							></a>
+						</li>
 					</ul>
 				</div>
 			</div>
 			<nav class="navegacion">
-				<div>
-					<h1>FrontCat&Dog</h1>
+				<div class="front-cat-title">
+					<h1>
+						<span><img src="/img/Cat.png" /></span>Front<span class="cat-dog"
+							>Cat&Dog</span
+						><span><img src="/img/Dog.png" /></span>
+					</h1>
 				</div>
 				<div class="menu-nav">
 					<ul>
@@ -30,72 +42,105 @@
 						<li><a href="#">Contactanos</a></li>
 					</ul>
 				</div>
+				<div class="menu-hamburguesa">
+					<img src="/img/menu-icon 1.png" />
+				</div>
 			</nav>
 		</header>
 
 		<main>
 			<!-- imagen principal de la pagina -->
-			<div>
-				<div>
-					<img
-						src="/img/bowl-and-pet-daities-on-green-background 1.png"
-						alt="Imagen Principal"
-					/>
-				</div>
-				<div>
-					<p>!Es un placer tenerte aqui!</p>
-					<p>!Comederos en descuento!</p>
-					<button>COMEDEROS</button>
+			<div class="imagen-principal">
+				<div class="descuentos">
+					<p class="tenerte-title">!Es un placer tenerte aqui!</p>
+					<p class="comederos-descuento">!Comederos en descuento!</p>
+					<button class="button-comederos">COMEDEROS</button>
 				</div>
 			</div>
 			<!-- section uno de la pagina -->
 
-			<section>
-				<div>
+			<section class="section-color">
+				<div class="seccion-productos">
 					<!-- // logo de los productos destacados -->
 					<div>
 						<div>
 							<img src="/img/pawprint 1.png" alt="Producto" />
 						</div>
-						<div>
+						<div class="productos-destacados">
 							<h2>Productos Destacados</h2>
 						</div>
 					</div>
 					<!-- // contenedor de textos -->
-					<div>
+					<div class="lista-items">
 						<ul class="list-style">
-							<li>Comedoros</li>
-							<li>Accesorios</li>
+							<li>Comedoros -</li>
+							<li>Accesorios -</li>
 							<li>Comida</li>
 						</ul>
 					</div>
 				</div>
 
 				<!-- // articulos -->
-				<div>
-					<article>
+				<div class="articulos-venta">
+					<article class="articulo">
 						<div>
 							<img src="/img/churrasquito.png" />
-							<p>Juguete Churrasquito</p>
-							<p>$150</p>
+							<p class="articulo-nombre">Juguete Churrasquito</p>
+							<p class="articulo-price">$150</p>
 						</div>
 					</article>
-					<article>
+					<article class="articulo">
 						<div>
 							<img src="/img/comedero.png" />
-							<p>Comedero para Perro</p>
-							<p>$250</p>
+							<p class="articulo-nombre">Comedero para Perro</p>
+							<p class="articulo-price">$250</p>
 						</div>
 					</article>
-					<article>
+					<article class="articulo">
 						<div>
 							<img src="/img/Huesito.png" />
-							<p>Comedero para Huesito</p>
-							<p>$650</p>
+							<p class="articulo-nombre">Comedero para Huesito</p>
+							<p class="articulo-price">$650</p>
 						</div>
 					</article>
 				</div>
+
+				<div>
+					<form class="formulario">
+						<div class="contactanos-title">
+							<p>Contactanos</p>
+						</div>
+						<div class="form-input">
+							<input type="text" placeholder="escribe tu nombre y apellido" />
+
+							<input type="email" placeholder="martincamer@gmail.com" />
+
+							<input type="tel" placeholder="+54 34562334" />
+						</div>
+						<div class="button">
+							<button class="reset">Resetear</button>
+							<button class="enviar">Enviar</button>
+						</div>
+					</form>
+				</div>
 			</section>
+			<!-- // footer pie de pagina -->
+			<footer class="footer">
+				<div class="Suscribe-Final">
+					<div class="title-suscribe">
+						<p>
+							<img src="/img/enviar-correo 1.png" />Suscribete para mas
+							novedades
+						</p>
+					</div>
+					<div>
+						<div class="botton-suscripcion">
+							<input type="text" placeholder="Ingresa tu correo electronico" />
+							<button>Suscribete</button>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>
