@@ -297,7 +297,59 @@
 	align-items: center;
 }
 
+/* // footer */
+
+.footer {
+	background-color: #3c2313;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px 20px;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	justify-items: center;
+}
+
+.footer .imagen-bowl {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.footer .plb-items {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	gap: 30px;
+}
+
+.flex-items {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 10px;
+}
+
+.derechos-reservados {
+	display: flex;
+	justify-content: center;
+	color: #ffff;
+	background-color: #222222;
+	padding: 10px;
+}
 /* // media queries */
+
+@media only screen and (max-width: 1339px) {
+	.footer {
+		justify-content: center;
+	}
+}
 
 @media only screen and (max-width: 1000px) {
 	.menu-hamburguesa {
